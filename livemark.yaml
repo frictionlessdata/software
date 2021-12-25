@@ -1,0 +1,26 @@
+brand:
+  text: Frictionless Software
+about:
+  text: The Frictionless Data project provides a rich set of open source software for working with data
+github:
+  user: frictionlessdata
+  repo: software
+topics:
+  selector: h2
+site:
+  favicon: assets/logo.png
+  layout: layout.html
+  styles:
+    - style.css
+pages:
+  items:
+    - path: index
+      name: Introduction
+    - path: pages/roadmap
+    - path: pages/process
+links:
+  items:
+    - name: Frictionless
+      path: https://frictionlessdata.io
+    - name: Livemark
+      path: https://livemark.frictionlessdata.io
