@@ -11,4 +11,5 @@ The Frictionless Data project provides a rich set of open source software for wo
 ```yaml image
 path: assets/structure.png
 width: 100%
+height: unset
 ```
