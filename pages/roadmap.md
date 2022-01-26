@@ -12,18 +12,18 @@ type: warning
       <ul class="timeline">
         <li>
           <a target="_blank" href="https://application.frictionlessdata.io/">Frictionless Application (beta)</a>
-          <a href="#" class="float-right">Jan 2022</a>
+          <a href="#" class="float-right">Feb 2022</a>
           <p>We're finishing beta release of our data management application</p>
         </li>
         <li>
           <a target="_blank" href="https://framework.frictionlessdata.io/">Frictionless Framework (v5)</a>
-          <a href="#" class="float-right">Feb 2022</a>
+          <a href="#" class="float-right">Mar 2022</a>
           <p>A year since the first framework release we're going to publish a new version with some low-level breaking changes</p>
         </li>
         <li>
           <a target="_blank" href="https://application.frictionlessdata.io/">Frictionless Application (v1)</a>
-          <a href="#" class="float-right">Mar 2022</a>
-          <p>We're looking forward to finish our application work in March and release it to a broad audience</p>
+          <a href="#" class="float-right">Apr 2022</a>
+          <p>We're looking forward to finish our application work in April and release it to a broad audience</p>
         </li>
         <li>
           <a target="_blank" href="https://livemark.frictionlessdata.io/">Livemark (v1)</a>
