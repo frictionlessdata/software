@@ -22,12 +22,12 @@ type: warning
         </li>
         <li>
           <a target="_blank" href="https://application.frictionlessdata.io/">Frictionless Application (v1)</a>
-          <a href="#" class="float-right">Apr 2022</a>
+          <a href="#" class="float-right">Jun 2022</a>
           <p>We're looking forward to finish our application work in April and release it to a broad audience</p>
         </li>
         <li>
           <a target="_blank" href="https://livemark.frictionlessdata.io/">Livemark (v1)</a>
-          <a href="#" class="float-right">Jun 2022</a>
+          <a href="#" class="float-right">Dec 2022</a>
           <p>Data presentation framework for Python that generates static sites from extended Markdown is going to be released</p>
         <li>
           <a target="_blank" href="https://software.frictionlessdata.io/">Software Quality</a>
