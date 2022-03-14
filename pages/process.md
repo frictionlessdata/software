@@ -16,6 +16,7 @@ The specific of the project is a huge amount of components and actors (repositor
 The main idea to focus on getting things done and reduce the price of maintaining the process instead of trying to fully mimic some popular methodologies. We use different ideas from different methodologies.
 
 ## Roles
+
 - Product Owner (PO)
 - Product Manager (PM)
 - Developer Advocate (DA)
@@ -79,6 +80,16 @@ Tests should be written using OKI coding standards. Start write tests from top (
 ## Releasing
 
 We use SemVer for versioning and Travis for testing and releasing/deployments. We prefer short release cycle (features and fixes could be released immediately). Releases should be configured using tags based on package examples workflow provided by OKI.
+
+The release process:
+- merge changes to the main branch on GitHub
+  - use "Squash and Merge"
+  - use clean commit message
+- pull the changes locally
+- update the software version according to SemVer rules
+  - in Python projets we use `<name>/assets/VERSION`
+  - in JavaScript projects we use standard `package.json`
+- run `main release` (it will release automatically)
 
 ## References
 
