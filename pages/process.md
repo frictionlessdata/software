@@ -79,7 +79,7 @@ Tests should be written using OKI coding standards. Start write tests from top (
 
 ## Releasing
 
-We use SemVer for versioning and Travis for testing and releasing/deployments. We prefer short release cycle (features and fixes could be released immediately). Releases should be configured using tags based on package examples workflow provided by OKI.
+We use SemVer for versioning and Github Actions for testing and releasing/deployments. We prefer short release cycle (features and fixes could be released immediately). Releases should be configured using tags based on package examples workflow provided by OKI.
 
 The release process:
 - merge changes to the main branch on GitHub
