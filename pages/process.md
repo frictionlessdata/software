@@ -89,6 +89,7 @@ The release process:
 - update the software version according to SemVer rules
   - in Python projets we use `<name>/assets/VERSION`
   - in JavaScript projects we use standard `package.json`
+- update a CHANGELOG file adding info about new feature or important changes
 - run `main release` (it will release automatically)
 
 ## References
