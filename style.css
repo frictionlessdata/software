@@ -3,7 +3,7 @@
 ul.timeline {
     list-style-type: none;
     position: relative;
-    font-size: 130%;
+    font-size: 120%;
 }
 ul.timeline:before {
     content: ' ';
@@ -30,4 +30,12 @@ ul.timeline > li:before {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+
+ul.timeline > li.done:before {
+    background: green;
+}
+
+ul.timeline > li.current:before {
+    background: yellow;
 }

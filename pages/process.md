@@ -1,10 +1,5 @@
 # Process
 
-```yaml remark
-text: This document is under progress
-type: warning
-```
-
 This document proposes a process to work on the technical side of the Frictionless Data project. The goal - have things manageable for a minimal price.
 
 ## Project
