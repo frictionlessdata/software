@@ -27,12 +27,6 @@ This roadmap covers Frictionless Software development starting from early 2020 w
           <p>Data presentation framework for Python that generates static sites from extended Markdown with interactive charts, tables, scripts, and other features</p>
         </li>
 
-        <li class="done">
-          <a target="_blank" href="https://software.frictionlessdata.io/">Software Quality</a>
-          <a href="#" class="float-right">Jun 2022</a>
-          <p>We're going to focus on performace, usability, bug fixing, and other non-functional features</p>
-        </li>
-
         <li class="current">
           <a target="_blank" href="https://framework.frictionlessdata.io/">Frictionless Framework (v5.beta)</a>
           <a href="#" class="float-right">Jun 2022</a>
