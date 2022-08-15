@@ -45,12 +45,12 @@ This roadmap covers Frictionless Software development starting from early 2020 w
         </li>
 
         <li>
-          <a target="_blank" href="https://application.frictionlessdata.io/">Frictionless Application (MVP)</a>
+          <a target="_blank" href="">Frictionless Application (MVP)</a>
           <a href="#" class="float-right">Sep 2022</a>
         </li>
 
         <li>
-          <a target="_blank" href="https://application.frictionlessdata.io/">Frictionless Application (v1)</a>
+          <a target="_blank" href="">Frictionless Application (v1)</a>
           <a href="#" class="float-right">Dec 2022</a>
           <p>We're looking forward to finish our application work and release it to a broad audience.</p>
         </li>

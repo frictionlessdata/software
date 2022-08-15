@@ -1326,76 +1326,6 @@ ul.timeline > li.current:before {
 </style>
 <style>
 
-#livemark-topics {
-  color: #888;
-}
-
-#livemark-topics .toc>.toc-list {
-  overflow: hidden;
-  position: relative;
-}
-
-#livemark-topics .toc>.toc-list li {
-  list-style: none;
-}
-
-#livemark-topics .toc-list {
-  padding-left: 0;
-  margin: 0;
-}
-
-#livemark-topics a.toc-link {
-  color: currentColor;
-}
-
-#livemark-topics a.toc-link:hover {
-  color: #80b2e6;
-}
-
-#livemark-topics .is-active-link {
-  font-weight: 700;
-}
-
-#livemark-topics ul.secondary {
-  margin-left: 20px;
-  display: none;
-}
-
-#livemark-topics li.is-active-li ul.secondary {
-  display: block;
-}
-
-#livemark-topics li.group a.primary::after {
-  content: "\f054";
-  font-size: 16px;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  position: absolute;
-  top: 2px;
-  right: 0px;
-}
-
-#livemark-topics li.group.is-active-li a.primary::after {
-  content: "\f078";
-}
-
-#livemark-topics a {
-  display: inline-block;
-  color: currentColor;
-  position: relative;
-  width: 100%;
-  line-height: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-#livemark-topics a:hover {
-  color: #80b2e6;
-}
-
-</style>
-<style>
-
 #livemark-notes {
   color: #aaa;
   text-align: right;
@@ -1474,29 +1404,60 @@ ul.timeline > li.current:before {
 </style>
 <style>
 
-#livemark-about {
+#livemark-topics {
   color: #888;
 }
 
-</style>
-<style>
-
-#livemark-links {
-  color: #888;
-}
-
-#livemark-links ul {
+#livemark-topics .toc>.toc-list {
   overflow: hidden;
   position: relative;
+}
+
+#livemark-topics .toc>.toc-list li {
+  list-style: none;
+}
+
+#livemark-topics .toc-list {
   padding-left: 0;
   margin: 0;
 }
 
-#livemark-links li {
-  list-style: none;
+#livemark-topics a.toc-link {
+  color: currentColor;
 }
 
-#livemark-links a {
+#livemark-topics a.toc-link:hover {
+  color: #80b2e6;
+}
+
+#livemark-topics .is-active-link {
+  font-weight: 700;
+}
+
+#livemark-topics ul.secondary {
+  margin-left: 20px;
+  display: none;
+}
+
+#livemark-topics li.is-active-li ul.secondary {
+  display: block;
+}
+
+#livemark-topics li.group a.primary::after {
+  content: "\f054";
+  font-size: 16px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 2px;
+  right: 0px;
+}
+
+#livemark-topics li.group.is-active-li a.primary::after {
+  content: "\f078";
+}
+
+#livemark-topics a {
   display: inline-block;
   color: currentColor;
   position: relative;
@@ -1506,23 +1467,7 @@ ul.timeline > li.current:before {
   padding-bottom: 5px;
 }
 
-#livemark-links a:hover {
-  color: #80b2e6;
-}
-
-#livemark-links a[target="_blank"]:after {
-  content: "\f35d";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  vertical-align: text-top;
-  text-decoration: none;
-  display: inline-block;
-  color: #aaa;
-  font-size: 12px;
-  margin-left: -2px;
-}
-
-#livemark-links a[target="_blank"]:hover:after {
+#livemark-topics a:hover {
   color: #80b2e6;
 }
 
@@ -1861,16 +1806,11 @@ ul.timeline > li.current:before {
           </li>
       </ul>
 </div>
-
-<div id="livemark-topics">
-  <div class="toc">
-  </div>
-</div>
 </div>
 <div id="livemark-main">
 <div id="livemark-notes">
-  Written in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-  (2022-07-28 15:48)
+      <a href="https://github.com/frictionlessdata/software/edit/main/pages/roadmap.md" target="_blank">Edit page </a> in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
+    (2022-08-15 09:12)
 </div>
 
 <h1>Roadmap</h1>
@@ -1916,12 +1856,12 @@ ul.timeline > li.current:before {
         </li>
 
         <li>
-          <a target="_blank" href="https://application.frictionlessdata.io/">Frictionless Application (MVP)</a>
+          <a target="_blank" href="">Frictionless Application (MVP)</a>
           <a href="#" class="float-right">Sep 2022</a>
         </li>
 
         <li>
-          <a target="_blank" href="https://application.frictionlessdata.io/">Frictionless Application (v1)</a>
+          <a target="_blank" href="">Frictionless Application (v1)</a>
           <a href="#" class="float-right">Dec 2022</a>
           <p>We're looking forward to finish our application work and release it to a broad audience.</p>
         </li>
@@ -1959,41 +1899,10 @@ ul.timeline > li.current:before {
   </iframe>
 </div>
 
-<div id="livemark-about">
-  <div>
-    The Frictionless Data project provides a rich set of open source software for working with data
+<div id="livemark-topics">
+  <div class="toc">
   </div>
 </div>
-
-<div id="livemark-links">
-  <ul>
-        <li>
-      <a href="https://frictionlessdata.io" target="_blank">
-        Frictionless
-      </a>
-    </li>
-        <li>
-      <a href="https://livemark.frictionlessdata.io" target="_blank">
-        Livemark
-      </a>
-    </li>
-        <li>
-      <a href="https://github.com/frictionlessdata/software/issues" target="_blank">
-        Report
-      </a>
-    </li>
-        <li>
-      <a href="https://github.com/frictionlessdata/software/fork" target="_blank">
-        Fork
-      </a>
-    </li>
-        <li>
-      <a href="https://github.com/frictionlessdata/software/edit/main/pages/roadmap.md" target="_blank">
-        Edit
-      </a>
-    </li>
-      
-</ul></div>
 </div>
 <script src="https://unpkg.com/lodash@4.17.21/lodash.min.js"></script>
 <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
