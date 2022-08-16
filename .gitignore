@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Livemark
+blog/**/*.html
+pages/**/*.html
+index.html
+404.html
