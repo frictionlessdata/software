@@ -760,7 +760,8 @@ p {
 }
 
 #livemark-main hr {
-  height: .25em;
+  /* height: .25em; */
+  height: 1px;
   padding: 0;
   margin: 24px 0;
   background-color: #e1e4e8;
@@ -1323,6 +1324,12 @@ ul.timeline > li.current:before {
   /* font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;; */
 }
 
+.livemark-reference-heading {
+    background-color: #f6f8fa;
+    font-family: "Roboto Mono", ui-monospace, monospace;
+    padding: 1em 0;
+}
+
 </style>
 <style>
 
@@ -1760,6 +1767,17 @@ ul.timeline > li.current:before {
 </style>
 <style>
 
+.nav-tabs {
+    padding-left: 0 !important;
+}
+
+.nav-item {
+    margin-top: 0 !important;
+}
+
+</style>
+<style>
+
 .livemark-task pre:first-child {
   margin-bottom: 0 !important;
   border-bottom: dashed 1px #ccc;
@@ -1810,12 +1828,12 @@ ul.timeline > li.current:before {
 <div id="livemark-main">
 <div id="livemark-notes">
       <a href="https://github.com/frictionlessdata/software/edit/main/pages/roadmap.md" target="_blank">Edit page </a> in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-    (2022-08-15 09:12)
+    (2022-08-29 07:19)
 </div>
 
 <h1>Roadmap</h1>
 <p>This roadmap covers Frictionless Software development starting from early 2020 when Frictionless Framework work had begun.</p>
-<div class="container mt-2 mb-2">
+<div><div class="container mt-2 mb-2">
   <div class="row">
     <div class="col-md-6">
       <ul class="timeline">
@@ -1838,7 +1856,7 @@ ul.timeline > li.current:before {
           <p>Data presentation framework for Python that generates static sites from extended Markdown with interactive charts, tables, scripts, and other features</p>
         </li>
 
-        <li class="current">
+        <li class="done">
           <a target="_blank" href="https://framework.frictionlessdata.io/">Frictionless Framework (v5.beta)</a>
           <a href="#" class="float-right">Jun 2022</a>
         </li>
@@ -1849,13 +1867,13 @@ ul.timeline > li.current:before {
           <p>A year since the first framework release we're going to publish a new version with some low-level breaking changes.</p>
         </li>
 
-        <li>
+        <li class="done">
           <a target="_blank" href="https://repository.frictionlessdata.io/">Frictionless Repository (v2)</a>
           <a href="#" class="float-right">Sep 2022</a>
           <p>Frictionless Repository is going to be updated to Frictionless Framework v5</p>
         </li>
 
-        <li>
+        <li class="current">
           <a target="_blank" href="">Frictionless Application (MVP)</a>
           <a href="#" class="float-right">Sep 2022</a>
         </li>
@@ -1875,6 +1893,7 @@ ul.timeline > li.current:before {
       </ul>
     </div>
   </div>
+</div>
 </div>
 
 <div id="livemark-signs">
@@ -1979,7 +1998,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // For headings inside relative or absolute positioned containers within content.
     hasInnerContainers: true,
     // Called each time a heading is parsed. Expects a string in return.
-    headingLabelCallback: (label) => label.replace(/(^#|#$)/g, "").trim(),
+    headingLabelCallback: (label) => {
+      label = label.replace(/(^#|#$)/g, "").trim();
+      // label = label.replace(/\(.*?\)$/g, "");
+      return label;
+    },
     // Disable generating ordered lists (ol)
     orderedList: false,
     // Fix active link class

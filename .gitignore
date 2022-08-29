@@ -133,3 +133,4 @@ blog/**/*.html
 pages/**/*.html
 index.html
 404.html
+!**/*.html
