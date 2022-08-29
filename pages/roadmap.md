@@ -38,13 +38,13 @@ This roadmap covers Frictionless Software development starting from early 2020 w
           <p>A year since the first framework release we're going to publish a new version with some low-level breaking changes.</p>
         </li>
 
-        <li>
+        <li class="done">
           <a target="_blank" href="https://repository.frictionlessdata.io/">Frictionless Repository (v2)</a>
           <a href="#" class="float-right">Sep 2022</a>
           <p>Frictionless Repository is going to be updated to Frictionless Framework v5</p>
         </li>
 
-        <li>
+        <li class="current">
           <a target="_blank" href="">Frictionless Application (MVP)</a>
           <a href="#" class="float-right">Sep 2022</a>
         </li>
